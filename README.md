@@ -1,15 +1,3 @@
-# Índice
-
-1. [Instalación de dependencias](#instalación-de-dependencias)
-2. [Estructura de archivos](#estructura-de-archivos)
-3. [Instalación de dependencias de React](#instalación-de-dependencias-de-react)
-4. [Ejecutar la aplicación](#ejecutar-la-aplicación)
-5. [Creación del componente Experience](#creación-del-componente-experience)
-6. [Uso de Props](#uso-de-props)
-7. [Destructuring](#destructuring)
-8. [CSS](#css)
-9. [Configuración de React Three Fiber](#configuración-de-react-three-fiber)
-10. [Creación de la primera escena en React Three Fiber](#creación-de-la-primera-escena-en-react-three-fiber)
 
 # Configuración de proyecto React
 
@@ -88,6 +76,14 @@
 
         export { Experience };
         ```
+
+## Instalación de dependencias de React
+
+Ejecuta el siguiente comando para instalar React, React-DOM y React Scripts:
+
+```bash
+npm install react react-dom react-scripts
+```                                        
 
 ## Uso de Props
 
