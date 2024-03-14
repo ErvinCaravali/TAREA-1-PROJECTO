@@ -11,7 +11,7 @@ const Experience = () => {
   const object3 = useRef();
 
   // Función para la animación de los objetos usando una función coseno
-  useFrame((state, delta) => {
+  useFrame((state) => {
     // Movimiento coseno para el objeto 1
     object1.current.position.y = Math.cos(state.clock.getElapsedTime()) * 50; // Ajusta el factor multiplicador para cambiar la amplitud de la animación
 
